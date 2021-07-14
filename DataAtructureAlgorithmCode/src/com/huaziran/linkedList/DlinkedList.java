@@ -83,9 +83,9 @@ public class DlinkedList {
         reversePrint(stringLinkedList.getHead());
 
         //题目五：合并单链表
-//        System.out.println("==============题目五：合并单链表============");
-//        mergeLinklist(stringLinkedList.getHead(), stringLinkedList.getHead());
-//        stringLinkedList.list();
+        System.out.println("==============题目五：合并单链表============");
+        mergeLinklist(stringLinkedList.getHead(), stringLinkedList.getHead());
+        stringLinkedList.list();
 
     }
 
@@ -168,15 +168,15 @@ public class DlinkedList {
         }
     }
 
-    /*
+
     //题目五：合并两个链表(目前未成功解决)
         //思路找到第一个链表的最后，将第二个链表（不包活头节点）接入到head最后
     public static HeroNode mergeLinklist(HeroNode head,HeroNode head2){
         //判断链表是否为空,当其一个为空，则返回另外一个
         if (head.next == null) {
-            return head2;
+            return head2.next;
         }else if (head2 == null){
-            return head;
+            return head.next;
         }
 //        HeroNode cur = head.next;
 //        while (cur != null){
@@ -196,11 +196,22 @@ public class DlinkedList {
             next = cur.next; //先将暂时保存当前节点，后面用
             cur.next = reversehead.next; //将cur的下一个节点指向新的链表的最前端
             reversehead.next = cur; //将cur连接到新的链表上
-            cur = next; //让cur后移
+            if (cur.next == null){
+                HeroNode cur1 = head2.next;
+                HeroNode next1 = null;
+             while (cur1 != null){
+                next1 = cur1.next; //先将暂时保存当前节点，后面用
+                cur1.next = reversehead.next; //将cur的下一个节点指向新的链表的最前端
+                reversehead.next = cur1; //将cur连接到新的链表上
+                cur1 = next1; //让cur后移
+             }
+                cur = next; //让cur后移
+                System.out.println(cur);
+            }
         }
         return reversehead.next;
 }
-    */
+
 
 
 }
