@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/linkedList/annular_Josephu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huaziran/linkedList/DlinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/linkedList/DlinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,39 +12,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataAtructureAlgorithmCode$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1626336184849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.huaziran.stack.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/linkedList/annular_Josephu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-              <folding>
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1838#1839#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1921#1922#0" expanded="true" />
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#1977#1978#0" expanded="true" />
-                <element signature="e#2004#2005#0" expanded="true" />
-                <element signature="e#2041#2042#0" expanded="true" />
-                <element signature="e#2073#2074#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4410">
+              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1774">
-              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <state relative-caret-position="365">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#2041#2042#0" expanded="true" />
+                <element signature="e#2073#2074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,14 +72,16 @@
         <option value="$PROJECT_DIR$/src/com/huaziran/linkedList/DlinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/linkedList/annular_Josephu.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/stack/Cal.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-114" />
+    <option name="x" value="-75" />
     <option name="y" value="55" />
-    <option name="width" value="1938" />
-    <option name="height" value="914" />
+    <option name="width" value="1939" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +120,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huaziran" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataAtructureAlgorithmCode" type="b2602c69:ProjectViewProjectNode" />
@@ -128,25 +129,27 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huaziran" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayStackDome.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626276762363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626343228572" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,13 +163,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackDome">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.SparseArray.Array" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="ArrayStackDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.ArrayStackDome" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaziran.SparseArray.*" />
+          <option name="PATTERN" value="com.huaziran.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayStackDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.ArrayStackDome" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.Calculator" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
@@ -228,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDome" />
         <item itemvalue="Application.annular_Josephu" />
         <item itemvalue="Application.DlinkedList" />
         <item itemvalue="Application.DoubleLinkListDemo" />
-        <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +257,8 @@
       <workItem from="1626066378256" duration="1704000" />
       <workItem from="1626068124178" duration="6456000" />
       <workItem from="1626149648006" duration="29247000" />
-      <workItem from="1626234900506" duration="17391000" />
+      <workItem from="1626234900506" duration="18388000" />
+      <workItem from="1626331425452" duration="8828000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -298,16 +302,24 @@
       <option name="project" value="LOCAL" />
       <updated>1626191657726</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="加入环形链表和数组实现栈">
+      <created>1626276858790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626276858790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79635000" />
+    <option name="totallyTimeSpent" value="89460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,17 +328,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07692308" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.04524887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04524887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5339367" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.017026106" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.51282054" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.21116139" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,7 +398,8 @@
     <MESSAGE value="稀疏数组完整" />
     <MESSAGE value="单链表和双链表的实现" />
     <MESSAGE value="单链表的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="单链表的实现" />
+    <MESSAGE value="加入环形链表和数组实现栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入环形链表和数组实现栈" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/program files/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
@@ -467,32 +481,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/linkedList/annular_Josephu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-          <folding>
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4410">
+          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Cal.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1774">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="505">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#2041#2042#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
           </folding>
         </state>
       </provider>
