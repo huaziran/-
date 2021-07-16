@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/PolandNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1464#1465#0" expanded="true" />
@@ -157,7 +155,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626451514914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626451684530" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -274,7 +272,7 @@
       <workItem from="1626234900506" duration="18388000" />
       <workItem from="1626331425452" duration="9738000" />
       <workItem from="1626413475343" duration="9579000" />
-      <workItem from="1626450679222" duration="641000" />
+      <workItem from="1626450679222" duration="937000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -332,17 +330,24 @@
       <option name="project" value="LOCAL" />
       <updated>1626343318093</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="中缀表达式转后缀表达式及其表达式计算">
+      <created>1626451571976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626451571977</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100590000" />
+    <option name="totallyTimeSpent" value="100886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,11 +362,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.51282054" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.13725491" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.18702866" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.18702866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -423,7 +428,8 @@
     <MESSAGE value="单链表的实现" />
     <MESSAGE value="加入环形链表和数组实现栈" />
     <MESSAGE value="用栈完成一个表达式的计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="用栈完成一个表达式的计算" />
+    <MESSAGE value="中缀表达式转后缀表达式及其表达式计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="中缀表达式转后缀表达式及其表达式计算" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/program files/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
@@ -537,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1464#1465#0" expanded="true" />
