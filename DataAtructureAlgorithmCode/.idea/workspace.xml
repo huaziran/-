@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,22 +32,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="109" column="5" lean-forward="true" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
+            <state relative-caret-position="3675">
+              <caret line="109" column="5" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/PolandNotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="322">
+              <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
               <folding>
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#2041#2042#0" expanded="true" />
-                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,13 +95,15 @@
         <option value="$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/stack/Cal.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/stack/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-75" />
     <option name="y" value="55" />
-    <option name="width" value="1939" />
+    <option name="width" value="1940" />
     <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,28 +145,19 @@
               <item name="huaziran" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataAtructureAlgorithmCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAtructureAlgorithmCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="huaziran" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStackDome.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626343228572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626451514914" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -163,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.ReversePolishMultiCalc">
     <configuration name="ArrayStackDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.ArrayStackDome" />
       <module name="DataAtructureAlgorithmCode" />
@@ -190,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DlinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.linkedList.DlinkedList" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.PolandNotation" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaziran.linkedList.*" />
+          <option name="PATTERN" value="com.huaziran.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.linkedList.DoubleLinkListDemo" />
+    <configuration name="ReversePolishMultiCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.stack.ReversePolishMultiCalc" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaziran.linkedList.*" />
+          <option name="PATTERN" value="com.huaziran.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReversePolishMultiCalc" />
+        <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDome" />
         <item itemvalue="Application.annular_Josephu" />
-        <item itemvalue="Application.DlinkedList" />
-        <item itemvalue="Application.DoubleLinkListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +272,9 @@
       <workItem from="1626068124178" duration="6456000" />
       <workItem from="1626149648006" duration="29247000" />
       <workItem from="1626234900506" duration="18388000" />
-      <workItem from="1626331425452" duration="8828000" />
+      <workItem from="1626331425452" duration="9738000" />
+      <workItem from="1626413475343" duration="9579000" />
+      <workItem from="1626450679222" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -309,17 +325,24 @@
       <option name="project" value="LOCAL" />
       <updated>1626276858790</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="用栈完成一个表达式的计算">
+      <created>1626343318093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626343318093</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89460000" />
+    <option name="totallyTimeSpent" value="100590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -328,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04524887" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28808448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5339367" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,8 +361,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.21116139" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.18702866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -349,6 +371,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +422,8 @@
     <MESSAGE value="单链表和双链表的实现" />
     <MESSAGE value="单链表的实现" />
     <MESSAGE value="加入环形链表和数组实现栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入环形链表和数组实现栈" />
+    <MESSAGE value="用栈完成一个表达式的计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="用栈完成一个表达式的计算" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/program files/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
@@ -479,6 +503,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Cal.java" />
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/linkedList/annular_Josephu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4410">
@@ -486,25 +511,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Cal.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ArrayStackDome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
+        <state relative-caret-position="3675">
+          <caret line="109" column="5" selection-start-line="50" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="27" />
           <folding>
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/stack/ReversePolishMultiCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
           </folding>
         </state>
       </provider>
