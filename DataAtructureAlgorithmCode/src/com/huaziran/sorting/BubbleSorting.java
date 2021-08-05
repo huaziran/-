@@ -7,7 +7,7 @@ import java.util.Date;
 public class BubbleSorting {
 
     public static void bubbleSort(int[] arr) {
-        int temp = 0;  //第三方容器
+        int temp = 0;  //第三方容器，用于交换
         boolean flag = false;
         for (int i = 0; i < arr.length; i++) { //表示第几次循环
             for (int j = 0; j < arr.length - i - 1; j++) {  //进行第i次循环的前一位与后一位的循环比较
