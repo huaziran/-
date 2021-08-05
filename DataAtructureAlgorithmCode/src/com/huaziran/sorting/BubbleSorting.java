@@ -31,7 +31,7 @@ public class BubbleSorting {
     public static void main(String[] args) {
         int arr[] = {3, 5, 2, 7, 8};
         BubbleSorting bubbleSorting = new BubbleSorting();
-        bubbleSorting.bubbleSort(arr);
+        bubbleSort(arr);
 
         int[] arrys = new int[80000];
         for (int i = 0; i < arrys.length; i++) {
