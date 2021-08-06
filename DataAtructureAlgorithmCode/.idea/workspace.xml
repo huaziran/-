@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/SelectSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/SelectSorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="140">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +73,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2381">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="71">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/com/huaziran/sorting/ShellSorting.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/sorting/SelectSorting.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" />
       </list>
     </option>
@@ -192,7 +206,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628230196876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628236013382" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -213,8 +227,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.QuickSorting">
-    <configuration name="BubbleSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.sorting.BubbleSorting" />
+    <configuration name="InsertSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.sorting.InsertSorting" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
@@ -226,8 +240,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.sorting.InsertSorting" />
+    <configuration name="MergetSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.sorting.MergetSorting" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
@@ -281,10 +295,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.QuickSorting" />
+        <item itemvalue="Application.MergetSorting" />
         <item itemvalue="Application.ShellSorting" />
         <item itemvalue="Application.InsertSorting" />
         <item itemvalue="Application.SelectSorting" />
-        <item itemvalue="Application.BubbleSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +332,7 @@
       <workItem from="1627187705289" duration="10961000" />
       <workItem from="1627262276317" duration="3152000" />
       <workItem from="1628130190220" duration="10584000" />
-      <workItem from="1628150427517" duration="10558000" />
+      <workItem from="1628150427517" duration="15885000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -425,15 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628156828267</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="快排排序">
+      <created>1628230544180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628230544180</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153940000" />
+    <option name="totallyTimeSpent" value="159267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1659919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,7 +464,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.256651" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5164319" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23317684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,7 +541,8 @@
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="插入排序" />
     <MESSAGE value="希尔排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="希尔排序" />
+    <MESSAGE value="快排排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="快排排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,8 +812,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="140">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2381">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="71">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
