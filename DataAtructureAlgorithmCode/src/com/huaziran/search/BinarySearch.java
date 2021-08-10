@@ -7,7 +7,7 @@ import java.util.List;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] arry = {1, 3, 5, 6, 7, 7, 7, 7, 8, 9, 10};
+        int[] arry = {1, 3, 5, 6, 7, 7, 7, 7, 8, 9, 10, 11};
         int result = binarySearch(arry, 0, arry.length - 1, 11);
         System.out.println("result=" + result);
 
