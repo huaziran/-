@@ -63,5 +63,6 @@
 ### 插值查找
     实现：递归 + int mid = left + (right - left) * (findValue - arr[left]) / (arr[right] - arr[left]);
     适用于数据量大的查找方法，在一方面优于二分查找
-   
+### 斐波那契（黄金分割法）查找
+    未实现
    
