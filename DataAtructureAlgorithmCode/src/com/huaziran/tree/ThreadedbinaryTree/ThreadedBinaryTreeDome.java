@@ -27,6 +27,8 @@ public class ThreadedBinaryTreeDome {
         //测试
         HeroNode leftNode = heroNode5.getLeft();
         System.out.println("10号的前驱节点" + leftNode);
+        System.out.println("使用线索化遍历二叉树：");
+        theadedBinaryTree.threadedList();
     }
 }
 
@@ -44,6 +46,27 @@ class TheadedBinaryTree {
     //重载threadedbinary方法
     public void threadedNodes() {
         this.threadedNodes(root);
+    }
+
+    //遍历线索化二叉树
+    public void threadedList() {
+//        定义一个存储当前遍历的节点，从root开始
+        HeroNode temp = root;
+        while (temp != null) {
+            //循环的找到lefttype ==1的节点，第一个就是8节点
+            //后面
+            while (temp.getLeftType() == 0) {
+                temp = temp.getLeft();
+            }
+            System.out.println(temp);
+//            当前节点的右指针指向后继节点，就一直输出
+            while (temp.getRightType() == 1) {
+                temp = temp.getRight();
+                System.out.println(temp);
+            }
+//            替换这个遍历的节点
+            temp = temp.getRight();
+        }
     }
 
     /**
@@ -75,23 +98,6 @@ class TheadedBinaryTree {
         //（三）线索化右节点
         threadedNodes(node.getRight());
     }
-//    public void threadedNodes(HeroNode node) {
-//        if(node == null) {
-//            return;
-//        }
-//        threadedNodes(node.getLeft());
-//        if(node.getLeft() == null) {
-//            node.setLeft(pre);
-//            node.setLeftType(1);
-//        }
-//        if (pre != null && pre.getRight() == null) {
-//            pre.setRight(node);
-//            pre.setRightType(1);
-//        }
-//        pre = node;
-//        threadedNodes(node.getRight());
-//    }
-
 
     //删除节点
     public void delNode(int no) {
