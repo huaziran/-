@@ -3,15 +3,16 @@ package com.huaziran.sorting;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
+@SuppressWarnings({"all"})
 
 public class QuickSorting {
     public static void main(String[] args) {
 
-        int[]  arry = {23,13,54,-8,-75,45,-7};
-        quickSorting(arry,0,arry.length - 1);
-        System.out.println(Arrays.toString(arry));
+//        int[]  arry = {23,13,54,-8,-75,45,-7};
+//        quickSorting(arry,0,arry.length - 1);
+//        System.out.println(Arrays.toString(arry));
 
-        int[] arrys = new int[80000000];
+        int[] arrys = new int[8000000];
         for (int i = 0; i < arrys.length; i++) {
             arrys[i] = (int) (Math.random() * 8000000);
         }
@@ -19,7 +20,9 @@ public class QuickSorting {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
         String date1r = simpleDateFormat.format(date1);
         System.out.println("排序时间前：" + date1r);
-        quickSorting(arrys,0,arry.length - 1);
+
+        quickSorting(arrys,0,arrys.length - 1);
+
         Date date2 = new Date();
         String date2r = simpleDateFormat.format(date2);
         System.out.println("排序时间后：" + date2r);
