@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="线性查找">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/heapSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huaziran/huffmantree/Huffmantree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/BubbleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/BubbleSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/QuickSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/RadixSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/RadixSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/SelectSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/SelectSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/ShellSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/ShellSorting.java" afterDir="false" />
@@ -57,14 +56,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/heapSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="385">
+              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#114#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/huffmantree/Huffmantree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/com/huaziran/tree/ThreadedbinaryTree/ThreadedBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/tree/ThreadedbinaryTree/ThreadedBinaryTreeDome.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/sorting/heapSorting.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/huffmantree/Huffmantree.java" />
       </list>
     </option>
   </component>
@@ -186,14 +202,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huaziran" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataAtructureAlgorithmCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAtructureAlgorithmCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="huaziran" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +213,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628764408953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628770618275" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -233,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.heapSorting">
+  <component name="RunManager" selected="Application.Huffmantree">
     <configuration name="ArrBinaryTreeDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaziran.tree.ArrBinaryTreeDome" />
       <module name="DataAtructureAlgorithmCode" />
@@ -247,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.tree.BinaryTreeDome" />
+    <configuration name="Huffmantree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.huffmantree.Huffmantree" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaziran.tree.*" />
+          <option name="PATTERN" value="com.huaziran.huffmantree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Huffmantree" />
         <item itemvalue="Application.heapSorting" />
         <item itemvalue="Application.ThreadedBinaryTreeDome" />
         <item itemvalue="Application.ThreadedBinaryTreeDemo" />
         <item itemvalue="Application.ArrBinaryTreeDome" />
-        <item itemvalue="Application.BinaryTreeDome" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +352,7 @@
       <workItem from="1628554443247" duration="9199000" />
       <workItem from="1628643301660" duration="22793000" />
       <workItem from="1628681106765" duration="1068000" />
-      <workItem from="1628742692274" duration="8510000" />
+      <workItem from="1628742692274" duration="12078000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -528,14 +536,22 @@
       <option name="project" value="LOCAL" />
       <updated>1628749228254</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="堆排序">
+      <created>1628764459097</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1628764459097</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206329000" />
+    <option name="totallyTimeSpent" value="209897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22469635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,7 +562,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5023474" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05946792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.05946792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,7 +650,8 @@
     <MESSAGE value="线索化二叉树" />
     <MESSAGE value="线性查找" />
     <MESSAGE value="线索二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="线索二叉树" />
+    <MESSAGE value="堆排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1020,11 +1037,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huaziran/sorting/heapSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="385">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#114#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/huffmantree/Huffmantree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
