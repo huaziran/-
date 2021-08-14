@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5faad2e2-b6fb-4107-9b81-a5b449780e08" name="Default Changelist" comment="线性查找">
-      <change afterPath="$PROJECT_DIR$/src/com/huaziran/alv/ALVtreeDome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huaziran/avl/AVLtreeDome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/avl/AVLtreeDome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/BubbleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/BubbleSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/InsertSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huaziran/sorting/MergetSorting.java" afterDir="false" />
@@ -38,10 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huaziran/alv/ALVtreeDome.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huaziran/avl/AVLtreeDome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="425">
+              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
               <folding>
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
@@ -121,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/com/huaziran/huffmantree/Huffmantree.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/binarysorttree/BnarySortTreeDome.java" />
         <option value="$PROJECT_DIR$/src/com/huaziran/alv/ALVtreeDome.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/avl/ALVtreeDome.java" />
+        <option value="$PROJECT_DIR$/src/com/huaziran/avl/AVLtreeDome.java" />
       </list>
     </option>
   </component>
@@ -162,6 +164,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="huaziran" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataAtructureAlgorithmCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataAtructureAlgorithmCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="huaziran" type="462c0819:PsiDirectoryNode" />
+              <item name="avl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,7 +183,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628951357163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628954395671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,9 +212,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ALVtreeDome">
+  <component name="RunManager" selected="Application.AVLtreeDome">
     <configuration name="ALVtreeDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaziran.avl.ALVtreeDome" />
+      <module name="DataAtructureAlgorithmCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaziran.avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AVLtreeDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaziran.avl.AVLtreeDome" />
       <module name="DataAtructureAlgorithmCode" />
       <extension name="coverage">
         <pattern>
@@ -242,19 +265,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadedBinaryTreeDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaziran.tree.ThreadedbinaryTree.ThreadedBinaryTreeDome" />
-      <module name="DataAtructureAlgorithmCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huaziran.tree.ThreadedbinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="heapSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaziran.sorting.heapSorting" />
       <module name="DataAtructureAlgorithmCode" />
@@ -270,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLtreeDome" />
         <item itemvalue="Application.ALVtreeDome" />
         <item itemvalue="Application.BnarySortTreeDome" />
         <item itemvalue="Application.Huffmantree" />
         <item itemvalue="Application.heapSorting" />
-        <item itemvalue="Application.ThreadedBinaryTreeDome" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +326,7 @@
       <workItem from="1628742692274" duration="13427000" />
       <workItem from="1628924274256" duration="3099000" />
       <workItem from="1628948491366" duration="55000" />
-      <workItem from="1628948573464" duration="2757000" />
+      <workItem from="1628948573464" duration="5646000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组完整">
       <created>1623559539092</created>
@@ -521,17 +531,24 @@
       <option name="project" value="LOCAL" />
       <updated>1628950795033</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="AVL树（坐旋转）">
+      <created>1628951473504</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1628951473504</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217157000" />
+    <option name="totallyTimeSpent" value="220046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23684211" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23684211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +557,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05946792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05946792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.05946792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,7 +648,8 @@
     <MESSAGE value="堆排序" />
     <MESSAGE value="哈夫曼树" />
     <MESSAGE value="二叉排序树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉排序树" />
+    <MESSAGE value="AVL树（坐旋转）" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVL树（坐旋转）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,10 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huaziran/alv/ALVtreeDome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/huaziran/avl/AVLtreeDome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
           <folding>
             <element signature="e#620#621#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
