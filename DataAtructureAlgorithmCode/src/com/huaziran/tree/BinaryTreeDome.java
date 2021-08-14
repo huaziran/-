@@ -1,5 +1,5 @@
 package com.huaziran.tree;
-
+@SuppressWarnings({"all"})
 public class BinaryTreeDome {
     public static void main(String[] args) {
         //创建一颗二叉树
@@ -10,7 +10,6 @@ public class BinaryTreeDome {
         HeroNode heroNode2 = new HeroNode(3, "卢俊义");
         HeroNode heroNode3 = new HeroNode(4, "林冲");
         HeroNode heroNode4 = new HeroNode(5, "关胜");
-
 
         //手动创建二叉树
         root.setLeft(heroNode1);
@@ -337,5 +336,4 @@ class HeroNode {
         }
         return resNode;
     }
-
 }
